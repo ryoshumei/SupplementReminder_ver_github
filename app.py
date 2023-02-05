@@ -252,10 +252,10 @@ def show(event = MessageEvent):
     if(messages == ""):
         messages = 'No reminder exist.'
         
-    else:   
-        line_bot_api.reply_message(
-        event.reply_token,
-        TextSendMessage(text=messages))
+       
+    line_bot_api.reply_message(
+    event.reply_token,
+    TextSendMessage(text=messages))
 
 
     
