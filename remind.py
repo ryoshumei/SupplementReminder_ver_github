@@ -44,7 +44,7 @@ if __name__ == "__main__":
         now = time(hour_to_compare,0,0,0)
         
         #test with time = 18,10,12
-        now = time(12,0,0,0)
+        #now = time(12,0,0,0)
         
         results = db.session.execute(db.select(Database).where(Database.time == now,Database.if_remind == True).order_by(Database.db_id)).scalars()
         #print(results)
