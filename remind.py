@@ -6,7 +6,7 @@ from app import app, db, Database
 from datetime import datetime, date,time,timedelta
 
 #need CHANNEL_ACCESS_TOKEN below
-line_bot_api = LineBotApi('5wt0KkHr91+bDqhCh0fSP8R0Z2s+SXGVg3Qos03+0NVvT4z4MeNx/+VYvP1sZQ8mDEGyBWdccC3TQ/kG8hdj41K7WE2yTOVZ58ni2IiFJ6n9v/KzpEPEnn0gUkSMdqTpBAF04QzDibBScKfhOmLDYwdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('')
 
 def pushmessage(user_id = str, messages = str):
     
