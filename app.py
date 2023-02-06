@@ -32,9 +32,9 @@ class Database(db.Model):
 
 
 #need CHANNEL_ACCESS_TOKEN below
-line_bot_api = LineBotApi('')
+line_bot_api = LineBotApi('CHANNEL_ACCESS_TOKEN')
 #need CHANNEL_SECRET bleow
-handler = WebhookHandler('')
+handler = WebhookHandler('CHANNEL_SECRET')
 
 user_ids = []
 user_ids_waiting_for_name = []
