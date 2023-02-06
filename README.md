@@ -45,22 +45,22 @@ Caution : check_db.py and relative html,css files are for checking database when
 5. Add job to Heroku Scheduler. Run remind.py onece every hour at :00
 
 ## Features
-![This is an image](/imgaes_for_readme/1.png)
+![This is an image](/images_for_readme/1.png)
 
 ### Add a reminder by sending 'Add' (Upper and lower case is fine)
-![This is an image](/imgaes_for_readme/2.png)
+![This is an image](/images_for_readme/2.png)
 
 ### Show your reminders by sending 'Show'
-![This is an image](/imgaes_for_readme/3.png)
+![This is an image](/images_for_readme/3.png)
 
 ### Delete your reminder by sending 'delete'
-![This is an image](/imgaes_for_readme/4.png)
+![This is an image](/images_for_readme/4.png)
 
 ### Remind you ono time
-![This is an image](/imgaes_for_readme/5.png)
+![This is an image](/images_for_readme/5.png)
 
 ### Stop today's reminder by touch the setted up NFC tag
-![This is an image](/imgaes_for_readme/6.png)
+![This is an image](/images_for_readme/6.png)
 
 
 
