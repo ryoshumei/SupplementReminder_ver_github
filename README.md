@@ -27,7 +27,7 @@ You can setup a automation function with iOS and a NFC tag to tell the line-bot 
 Caution: The text you setup to the automation function should be 'SupplementName : CurentDateTime'.There is a ' '(space) between 'SupplementName' and ':', and between ':' and CurentDateTime.
 For CurentDateTime you can use the built-in function of iOS.
 
-![This is an image](/imgaes_for_readme/nfcsetting.png)
+![This is an image](/images_for_readme/nfcsetting.png)
 
 ## Run the app
 1. Get you CHANNEL_ACCESS_TOKEN and CHANNEL_SECRET from your Line Messaging API Account channel. And replace them in app.py and remind.py.
