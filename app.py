@@ -187,6 +187,7 @@ def add(new_task = Database):
 def delete(event = MessageEvent):
     user_id = event.source.user_id
     text=event.message.text
+    text = text.lower()
     if(user_id in user_ids_waiting_for_deleteid):
         if(text.isdigit()):
             id_to_delete = int(text)
