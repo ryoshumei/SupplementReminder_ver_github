@@ -34,6 +34,8 @@ For CurentDateTime you can use the built-in function of iOS.
 <br>
 2. Run create_db.py to create a blank SQlite database.
 <br>
+Caution : As Heroku is a ephemeral platform, any change in your SQlite database during runtime will be erased. For public use, you need to switch to  other database such as Heroku Postgres. For personal use, you need to change your SQLite file locally and deploy to Heroku.
+<br>
 3. Deploy to Your Heroku Project 
 <br>
 <br>
